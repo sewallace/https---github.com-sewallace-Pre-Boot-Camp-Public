@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    margin: 0px auto;
+    /* overflow: hidden;  */
+    background-color: white;
+    padding: 0px 200px;
+    
+}
+
+.inner {
+    display: flex;
+    justify-content: space-evenly;
+    
+    border: 2px solid black;
+}
+
+.left, .right {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.right {
+    flex: 2;
+
+}
+.profile {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+    
+    
+}
+.profile a, h3, img {
+    text-align: center;
+}
+.profile img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile a, h3 {
+    padding: 20px;
+    margin-bottom: 10px;
+    
+    
+    display: block;
+}
+.nav{
+    background-color: black;
+    color: white;
+    height: 70px;
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+}
+.box {
+   
+    border: 2px solid black;
+    /* width: 300px; */
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    
+}
+
+button {
+    background-color: goldenrod;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    height: 40px;
+    width: 50px;
+    font-size: 1.0 rem;
+}
+.box p, button {
+    display: inline-block;
+    margin: 10px 15px;
+}
+.user {
+    font-weight: bold;
+}

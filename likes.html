@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./likes.css" rel="stylesheet">
+    <title>Likes</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="nav">
+            <h2>Network</h2>
+        </div>
+        <div class="inner">
+            <div class="left">
+                <div class="profile">
+                    <img src="./avatar.png" alt="avatar">
+                    <a href="#">Add a profile</a>
+                    <h3>James Doe</h3>
+                </div>
+            </div>
+            <div class="right">  
+                <div class="box">
+                    <p class="user">Neil M</p>
+                    <p><span id="count1"> 9 </span> like(s)</p>
+                    <button onclick="LikeCount(1)">Like</button>
+                    <div>
+                        <p>I just set up this new discord bot, let me know what you think.<a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="box">
+                    <p class="user">Nichole K</p>
+                    <p><span id="count2"> 12 </span> like(s)</p>
+                    <button onclick="LikeCount(2)">Like</button>
+                    <div>
+                        <p>Just finished my <a href="#">next comic</a> check it out</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <p class="user">Jim R</p>
+                    <p><span id="count3"> 9 </span> like(s)</p>
+                    <button onclick="LikeCount(3)">Like</button>
+                    <div>
+                        <p>I can't stop listening to the <a href="#">new album.</a> Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>  
+        </div>    
+    </div>
+    <script src="likes.js"></script>
+</body>
+</html>
